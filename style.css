@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0!important;
+    font-family: 'Lato';    
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #141414;
+    color: white;
+    overflow: hidden;
+}
+div.container {
+    display: block;
+    position: absolute;
+    top: 200px;
+    align-items: center;
+}
+div.list-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    margin: .67em 0;
+    padding: 0px 0px px 0px;
+}
+
+
+div.list-profile span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    gap: 3em;
+}
+div.list-profile span:hover {
+    color: white;
+    cursor: pointer;
+}
+div.profile-wrapper-priscila {
+    background: url(https://occ-0-1814-185.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABcrzVzsVf3OR5U345qW7ICkb15O-SgdjE8oLDJsk3vcgsSR-9ICFEaZ9JGvi9d60hqSYCLxWyzuAQz1FQYQAJTYaQk3e80ELblXm.png?r=aac) no-repeat;
+    background-size: 150px;
+    background-position: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+}
+div.profile-wrapper-priscila:hover {
+    border: 3px solid white; 
+}
+div.profile-wrapper-miguel {
+    background: url(https://occ-0-1814-185.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABT9VbXIU93Jd5N5pm9UD76VMx_wGXe5DFaceX4nBZug7r_idHoQn2ut68-04MBUPjaA2ok2Xd_ajvTN1e7frGJ1caj7KmhR1YwfQ.png?r=46a) no-repeat;
+    background-size: 150px;
+    background-position: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
+    padding: 15px; 
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;  
+}
+div.profile-wrapper-miguel:hover {
+    border: 3px solid white; 
+}
+div.profile-wrapper-aleatorio {    
+    background: url(https://occ-0-1814-185.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABZumJ3wvSKM7od-r3UjhVF9j3yteWlQYA-51F3SNoI682llhul1Xf_CUkMnfP_17Md2lpOOhbwHeGufvo8kOTjptoS_bcwtniHKz.png?r=e6e) no-repeat;
+    background-size: 150px;
+    background-position: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+}
+div.profile-wrapper-aleatorio:hover {
+    border: 3px solid white;
+}
+.profile-wrapper-adicionar-perfil {
+    background: url(107075.png) no-repeat;
+    background-size: 80px;
+    background-position: center;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+}
+.profile-wrapper-adicionar-perfil:hover {
+    background-color: white;
+}
+
+div.list-profile .profile-miguel {
+    margin: 9px;
+}
+div.list-profile .profile-priscila{
+    margin: 9px;
+}
+div.list-profile .profile-aleatorio{
+    margin: 9px;
+}
+div.list-profile .profile-adicionar-perfil{
+    margin: 9px;
+}
+
+div.container .gerenciar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.container button {
+    background-color: transparent;
+    margin: 6em 0 1em;
+    font-size: 1.2vw;
+    color: gray;
+    font-size: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 0.5em 1.5em;
+}
+div.container button:hover {
+    border: 1px solid white;
+    color: white;
+}
